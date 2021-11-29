@@ -1,2 +1,2 @@
 # holbertonschool-web_front_end
-Content of the advanced program Web Stack of Holberton School
+Content of the advanced projects of Web Stack program of Holberton School
