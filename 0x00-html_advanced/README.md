@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="google" content="notranslate">
 <title>Project: 0x00. Advanced HTML | Holberton Medellín, Colombia Intranet</title>
 <link rel="stylesheet" href="https://use.typekit.net/xgz4ilr.css">
 <link rel="stylesheet" media="all" href="/assets/application_blue-eee8139ff7119e61c53b40347875960903e12f0c69f37197cb9886a136687c46.css" />
@@ -43,6 +52,4 @@
 
 <h2>Wireframe of <code>Techium</code> project</h2>
 
-<p><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/4/3e4f9e2b3cb73d1768229e086f5da35337be5c6c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20211201%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211201T202020Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8f4537ffa9c2612b8edcaadd0fc7136cb85a94137c725d8d7fcb914aaa99dc4b" alt="" style="" /></p>
-
-</div>
+<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/4/3e4f9e2b3cb73d1768229e086f5da35337be5c6c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20211201%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211201T202020Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8f4537ffa9c2612b8edcaadd0fc7136cb85a94137c725d8d7fcb914aaa99dc4b" alt="" style="" />
