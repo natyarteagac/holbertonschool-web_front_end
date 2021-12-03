@@ -1,5 +1,5 @@
 .btn-xl {
-    padding: 1rem1.75 rem;
+    padding: 1rem 1.75rem;
     font-size: 1.25rem;
 }
 .btn-outline-light {
