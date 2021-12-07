@@ -10,17 +10,17 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    color: #161616;
+    color: var(--text-color);
 }
-body a {
-    color: #161616;
+a {
+    color: var(--text-color);
 }
-body .visually-hidden {
+.visually-hidden {
     display: none;
 }
-body .card-category {
+.card-category {
     color: var(--color-primary);
 }
-body .section-tagline {
+.section-tagline {
     color: var(--color-primary);
 }
