@@ -65,7 +65,7 @@ a:link {
 a:link:hover {
     text-decoration: underline;
 }
-a:active {
+a:link:hover:active {
     background-color: var(--color-light-grey);
 }
 .visually-hidden {
