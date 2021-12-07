@@ -62,10 +62,10 @@ a:link {
     text-decoration: none;
     font-style: italic;
 }
-a:link:hover {
+a:hover {
     text-decoration: underline;
 }
-a:link:hover:active {
+a:active {
     background-color: var(--color-light-grey);
 }
 .visually-hidden {
