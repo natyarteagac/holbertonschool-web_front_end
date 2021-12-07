@@ -62,7 +62,7 @@ a:link {
     text-decoration: none;
     font-style: italic;
 }
-a:hover {
+a:link:hover {
     text-decoration: underline;
 }
 a:active {
