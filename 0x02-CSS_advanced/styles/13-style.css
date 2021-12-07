@@ -57,12 +57,12 @@ h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
-a:link {
+a {
     color: var(--text-color);
     text-decoration: none;
     font-style: italic;
 }
-a:link:hover {
+a:hover {
     text-decoration: underline;
 }
 a:active {
