@@ -18,22 +18,37 @@ html {
     font-size: 62.5%;
 }
 body {
-    color: #161616;
+    color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
 }
-body h1 h2 h3 h4 h5 h6 {
+h1 {
     font-family: var(--font-family-title);
 }
-body a {
-    color: #161616;
+h2 {
+    font-family: var(--font-family-title);
 }
-body .visually-hidden {
+h3 {
+    font-family: var(--font-family-title);
+}
+h4 {
+    font-family: var(--font-family-title);
+}
+h5 {
+    font-family: var(--font-family-title);
+}
+h6 {
+    font-family: var(--font-family-title);
+}
+a {
+    color: var(--text-color);
+}
+.visually-hidden {
     display: none;
 }
-body .card-category {
+.card-category {
     color: var(--color-primary);
 }
-body .section-tagline {
+.section-tagline {
     color: var(--color-primary);
 }
