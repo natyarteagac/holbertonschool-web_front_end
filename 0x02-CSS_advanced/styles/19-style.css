@@ -525,5 +525,5 @@ ul.row {
     color: var(--text-color);
 }
 .footer ul {
-    text-align: center;
+    text-align: right;
 }
