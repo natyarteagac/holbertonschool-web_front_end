@@ -126,6 +126,12 @@ a:active {
     margin-right: auto;
     margin-left: auto;
 }
+.footer {
+    padding-top: var(--footer-padding);
+    padding-bottom: var(--footer-padding);
+    padding-right: var(--footer-padding);
+    padding-left: var(--footer-padding);
+}
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -479,10 +485,4 @@ template {
 
 [hidden] {
   display: none;
-}
-footer {
-    padding-top: var(--footer-padding);
-    padding-bottom: var(--footer-padding);
-    padding-right: var(--footer-padding);
-    padding-left: var(--footer-padding);
 }
