@@ -528,7 +528,7 @@ ul.row {
     display: table;
     clear: both;
 }
-[col-] {
+[att^=col-] {
     float: left;
     padding: 0.5rem;
 }
