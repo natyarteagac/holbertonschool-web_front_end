@@ -124,7 +124,10 @@ a:active {
 .footer {
     padding: var(--footer-padding);
 }
-.navbar-menu .nav{
+.navbar-menu {
+    float: right;
+}
+.nav{
     margin: 0;
     padding: 0;
     list-style: none;
