@@ -94,8 +94,8 @@ a:active {
 }
 .container {
     width: 960px;
-    margin: auto;
-    padding: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
