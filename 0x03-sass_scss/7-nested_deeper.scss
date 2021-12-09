@@ -1,0 +1,15 @@
+/* Sass file that assign the Font-size to body and nested tags */
+
+$body_font_size: 14px;
+$h1_font_size: 16px;
+$smaller_tag_font_size: 12px;
+
+body {
+    font-size: $body_font_size;
+    h1 {
+        font-size: $h1_font_size;
+    }
+    h1.smaller {
+        font-size: $smaller_tag_font_size;
+    }
+}

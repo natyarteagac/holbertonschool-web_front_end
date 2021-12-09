@@ -1,0 +1,11 @@
+/* Sass file that assigns text color to button tag and the over */
+
+$text_color_button: #FF0000;
+$text_color_button_hover: #00FF00;
+
+button {
+    color: $text_color_button;
+    &:hover {
+        color: $text_color_button_hover;
+    }
+}

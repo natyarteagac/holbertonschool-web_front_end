@@ -1,0 +1,11 @@
+/* Sass file that assings a nested child */
+
+$first_text_color: #3D3D3D;
+$second_text_color: #FF0000;
+
+body {
+    color: $first_text_color;
+    > .red {
+        color: $second_text_color;
+    }
+}
