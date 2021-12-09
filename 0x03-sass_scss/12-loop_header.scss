@@ -1,0 +1,7 @@
+/* Sass file that creates H* tags, where * is the size of the font used */
+
+@for $counter from 1 through 5 {
+    #{h}#{$counter} {
+        font-size: $counter + px;
+    }
+}
