@@ -1,3 +1,4 @@
-body {
+/*Fixing scroll of website*/
+html {
     scroll-behavior: smooth;
 }
