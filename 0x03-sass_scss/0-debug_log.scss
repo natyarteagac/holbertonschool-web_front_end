@@ -1,4 +1,3 @@
 /* Printing in debug output the string Hello World */
 
-$hello-world: "Hello World";
-@debug $hello-world;
+@debug "Hello World";
