@@ -532,8 +532,8 @@ ul.row {
     float: left;
     padding: 0.5rem;
 }
-
 html[data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
+    background: var(--color-black);
 }
