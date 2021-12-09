@@ -1,0 +1,9 @@
+/* Sass file that assing a nested tag with body and p */
+
+body {
+    margin: 0;
+    padding: 0;
+    p {
+        margin: 10px;
+    }
+}
