@@ -1,14 +1,9 @@
-/* Loop to create a col with key and value of values */
+/* Loop to create a col from 1 to 4 and values */
 
-$values: (
-    1: 100%,
-    2: 50%,
-    3: 33.3333333333%,
-    4:25%
-);
+$values: 100%, 50%, 33.3333333333%, 25%;
 
-@each $key, $value in $values {
-            .#{col-}#{$key} {
-                width: $value;
+@for $i from 1 through length($values) {
+    .#{col-}#{$i} {
+        width: nth($values, $i);
     }
 }
