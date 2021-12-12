@@ -1,9 +1,14 @@
-$values: 100%, 50%, 33.3333333333%, 25%;
+/* Loop to create a col with key and value of values */
 
-@for $counter from 1 through 4  {
-    @each $value in $values {
-            #{col-}#{$counter} {
-            width: $value;
-        }
+$values: (
+    1: 100%,
+    2: 50%,
+    3: 33.3333333333%,
+    4:25%
+);
+
+@each $key, $value in $values {
+            .#{col-}#{$key} {
+                width: $value;
     }
 }
