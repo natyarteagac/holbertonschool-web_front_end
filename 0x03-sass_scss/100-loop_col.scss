@@ -1,0 +1,9 @@
+$values: 100%, 50%, 33.3333333333%, 25%;
+
+@for $counter from 1 through 4  {
+    @each $value in $values {
+            #{col-}#{$counter} {
+            width: $value;
+        }
+    }
+}
