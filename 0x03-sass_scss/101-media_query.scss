@@ -1,0 +1,12 @@
+/* Sass file that assigns font sixe of 20px to h1 tags and media screen 320px 14px to h1 tags*/
+
+$small: 320px;
+
+h1 {
+    font-size: 20px;
+}
+@media (max-width: $small) {
+    h1 {
+        font-size: 14px;
+    }
+}
