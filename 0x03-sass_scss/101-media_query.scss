@@ -5,7 +5,7 @@ $small: 320px;
 h1 {
     font-size: 20px;
 }
-@media (max-width: $small) {
+@media screen and (max-width: $small) {
     h1 {
         font-size: 14px;
     }
