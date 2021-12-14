@@ -198,19 +198,19 @@ width: calc((100% / 2) - 2rem);
 
 .nav {
     display: flex;
+    margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 .nav .nav-item + .nav-item {
-    margin: 0;
+    margin: var(--nav-item-margin);
 }
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
