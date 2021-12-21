@@ -176,7 +176,7 @@
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
   }
-main img {
+img {
     width: 100%;
     height: auto;
 }
@@ -214,7 +214,7 @@ main img {
   .col-1-2 {
     width: calc((100% / 2) - 2rem);
   }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
     :root {
         --section-padding: 5rem 1.5rem;
         --section-body-padding: 2rem 0;
@@ -282,7 +282,7 @@ main img {
     background-color: var(--color-primary);
     width: 100%;
   }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
     .navbar-menu {
         display: none;
     }
@@ -424,7 +424,7 @@ main img {
 .section-latest-news .row {
     flex-direction: row-reverse;
   }
-
+@media (max-width: 767px) {
     .section-latest-news .row {
         flex-direction: column;
     }
@@ -877,8 +877,8 @@ main img {
     z-index: 3;
     transition: width .4s cubic-bezier(0, 0.795, 0, 1);
   }
-  
-  .form-search input[type="search"]:focus {
+
+.form-search input[type="search"]:focus {
     position: relative;
     width: 15rem;
     z-index: 1;

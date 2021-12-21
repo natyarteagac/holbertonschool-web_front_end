@@ -47,7 +47,7 @@
     --line-height-big: 1.8;
   
     /** SECTION **/
-    --section-padding: 5rem 1.5rem;
+    --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-header-align: center;
     --section-title-font-size: var(--font-size-xx-large);
@@ -60,7 +60,7 @@
     --section-tagline-font-family: var(--font-family-headings);
     --section-tagline-font-weight: var(--font-weight-bold);
     --section-tagline-margin: 0;
-    --section-body-padding: 2rem 0 0;
+    --section-body-padding: 2rem 0 4rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
   
@@ -176,7 +176,7 @@
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
   }
-main img {
+img {
     width: 100%;
     height: auto;
 }
@@ -192,7 +192,6 @@ main img {
 
   /* Grid
       ============================= */
-  
   ul.row {
     margin: -1rem;
     padding: 0;
@@ -214,7 +213,7 @@ main img {
   .col-1-2 {
     width: calc((100% / 2) - 2rem);
   }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
     :root {
         --section-padding: 5rem 1.5rem;
         --section-body-padding: 2rem 0;
@@ -282,9 +281,19 @@ main img {
     background-color: var(--color-primary);
     width: 100%;
   }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
+    :root {
+        --nav-item-margin: 0;
+    }
     .navbar-menu {
         display: none;
+        flex: 1;
+    }
+    .header .nav {
+        flex-direction: column;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .2s ease-out;
     }
 }
   /* Header
@@ -424,7 +433,7 @@ main img {
 .section-latest-news .row {
     flex-direction: row-reverse;
   }
-
+@media (max-width: 767px) {
     .section-latest-news .row {
         flex-direction: column;
     }
@@ -877,8 +886,8 @@ main img {
     z-index: 3;
     transition: width .4s cubic-bezier(0, 0.795, 0, 1);
   }
-  
-  .form-search input[type="search"]:focus {
+
+.form-search input[type="search"]:focus {
     position: relative;
     width: 15rem;
     z-index: 1;
