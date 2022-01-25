@@ -10,7 +10,7 @@ function countPrimeNumbers() {
         break;
       }
     }
-    if ( i > 1 && flag == 0) {
+    if (i > 1 && flag == 0) {
       numbersPrimeArray.push(i);
     }
   }
@@ -26,4 +26,4 @@ function doTimes(number) {
 const t0 = performance.now();
 doTimes(100);
 const t1 = performance.now();
-console.log(`Execution time of printing countPrimeNumbers was ${t1 - t0} milliseconds.`);
+console.log(`Execution time of printing countPrimeNumbers 100 times was ${t1 - t0} milliseconds.`);
